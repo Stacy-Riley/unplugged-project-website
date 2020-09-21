@@ -401,18 +401,24 @@ aside {
     header .content-wrapper {
         width: 100%;
         justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
     }
  
     header nav {
         width: 20%;
+        background-color: pink;
     }
  
     header nav ul {
         justify-content: space-between;
+        background-color: pink;
     }
  
     .header-divider {
-        /*display: none;*/
+        margin: 0;
+        padding: 0;
     }
 
 /* Hero Area */
@@ -525,7 +531,38 @@ aside {
 
   /* Style adjustments for desktop */
 @media only screen and (min-width: 1200px) {
-  
+    .content-wrapper {
+         max-width: 960px;
+    }
+ 
+     /* Hero */
+    .hero-area h1 {
+        width: 68%;
+    }
+ 
+    /* Aside */
+    aside .content-wrapper {
+        justify-content: space-around;
+    }
+ 
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width:
+    }
+ 
+    /* Features */
+    .features h2 {
+        width: 
+    }
+ 
+    .features article {
+        flex-basis: 
+    }
+ 
+    /* Reviews */ 
+    .reviews article div {
+        width: 
+    }
 }
 
 /* ==========================================================================
