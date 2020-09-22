@@ -537,7 +537,7 @@ aside {
  
      /* Hero */
     .hero-area h1 {
-        width: 68%;
+        width: 70%;
     }
  
     /* Aside */
@@ -547,21 +547,21 @@ aside {
  
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width:
+        width: 320px;
     }
  
     /* Features */
     .features h2 {
-        width: 
+        width: 83%;
     }
  
     .features article {
-        flex-basis: 
+        flex-basis: 33%;
     }
  
     /* Reviews */ 
     .reviews article div {
-        width: 
+        width: 420px;
     }
 }
 
