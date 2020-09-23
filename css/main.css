@@ -90,6 +90,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 
 ul,
@@ -140,6 +141,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -161,11 +163,12 @@ header .content-wrapper {
 }
 
 header nav {
+  width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  
 }
 
 header nav ul {
@@ -174,14 +177,10 @@ header nav ul {
   list-style-type: none;
   width: 100%;
 }
-/*
-header nav ul a {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-*/
+
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -247,6 +246,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* Features */
@@ -280,6 +280,7 @@ aside {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -337,6 +338,32 @@ aside {
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
