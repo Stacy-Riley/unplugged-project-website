@@ -101,6 +101,8 @@ ul,
 ol {
   text-decoration: none;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -129,11 +131,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -165,6 +167,14 @@ header .content-wrapper {
   justify-content: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Used as dividing line under logo image */
@@ -235,6 +245,8 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area{
+  background: url("../img/jake-melara-30679-unsplash.jpg") center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap; 
@@ -245,23 +257,8 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2; 
+  padding: 0;
 }
-/*
-.hero-img {
-
-  max-height: 400px;
-  width: 400px;
-  display: flex;
-  justify-content: center; 
-  position: relative;
-  z-index: 0;
-}
-.hero-img img {
-  height: auto;
-  object-fit: cover;
-  width: 100%; 
-}
-*/
 
 /* Aside */
 
