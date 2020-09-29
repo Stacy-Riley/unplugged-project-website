@@ -245,11 +245,13 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area{
-  background: url("../img/jake-melara-30679-unsplash.jpg") center no-repeat #333;
+  background: url('../img/jake-melara-30679-unsplash.jpg') #333;
   background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -257,7 +259,8 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2; 
-  padding: 0;
+  margin: 0;
+
 }
 
 /* Aside */
@@ -299,6 +302,10 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') #333;
+  background-size: cover;
+  background-position: center;
+  min-height: 1450px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
