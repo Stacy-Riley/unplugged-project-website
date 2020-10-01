@@ -624,36 +624,39 @@ input[type=button] {
     }
 
 /* Footer */
-    footer .content-wrapper {
-      width: 65%;
-      margin: 100px 0;
-    }
-  
-    footer .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-    }
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
 
-    footer .contact {
-      margin-top: 80px;
-    }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 
-    footer h4 {
-      font-size: 1.5em;
-      margin-top: 0px;
-      margin-bottom: 40px;
-    }
-    
-    footer p {
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
       line-height: 1.285;
-    }
+  }
 
-
-    footer .copyright {
-      width: 100%;
-    }
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+  
+  footer .copyright {
+    width: 100%;
+  }
 
   /* About Page */
 
@@ -686,6 +689,7 @@ input[type=button] {
 
     .faq .content-wrapper {
       justify-content: space-between;
+
     }
   
     .faq-content {
@@ -737,7 +741,7 @@ input[type=button] {
 
      /* Hero */
     .hero-area h1 {
-      width: 60%;
+      width: 80%;
       font-size: 3.75em;
     }
  
